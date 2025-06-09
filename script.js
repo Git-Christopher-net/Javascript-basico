@@ -17,8 +17,17 @@ function Imprimirvariables(){
 }
 
 function arreglos(){
-    let fruta = ['manzana', 'pera', 'banana']
-    for (;et f of frutas){
+    //arreglos
+    let frutas = ['manzana', 'pera', 'banana']
+    //bucle
+    for (let f of frutas){
         console.log(f)
+    }
+// condicionales
+    if (frutas[1] === 'pera'){
+        console.log("la segunda fruta es una pera");
+    
+    }else{
+        console.log('No es una pera');
     }
 }
